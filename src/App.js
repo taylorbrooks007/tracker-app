@@ -1,11 +1,14 @@
 import "./App.css";
 import React, { useState } from "react";
-import { Router, Route } from "react-router-dom";
+import { Router, Routes, Route } from "react-router-dom";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
 import NavBar from "./components/NavBar";
 import Moment from "react-moment";
 import "./style.css";
+
+// PAGES
+import HomePage from "./pages/HomePage";
 
 export default function App() {
   const [value, onChange] = useState(new Date());
@@ -19,9 +22,10 @@ export default function App() {
     <Router>
       <>
         <div className="text-center">
-          <Route>
-            <NavBar />
-          </Route>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+          </Routes>
 
           <h4>Calculate Next period, Ovulation Day</h4>
 
