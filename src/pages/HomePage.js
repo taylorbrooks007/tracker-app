@@ -1,6 +1,18 @@
 // HomePage.js
+import React, { useState } from "react";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
+import Moment from "react-moment";
+import "./style.css";
 
 export default function HomePage() {
+  const [value, onChange] = useState(new Date());
+  const [cycle, cycleValue] = useState("28");
+
+  const date = value;
+
+  const cycleLength = parseInt(cycle);
+
   return (
     <div>
       <h2>HomePage</h2>
