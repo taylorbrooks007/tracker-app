@@ -1,3 +1,4 @@
+import "./NavBar.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -8,6 +9,7 @@ function NavBar() {
         <ul>
           <Link to="/">Home</Link>
           <Link to="/Luteal">Luteal</Link>
+          <Link to="/Ovulatory">Ovulatory</Link>
         </ul>
       </div>
     </header>
