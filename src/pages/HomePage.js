@@ -15,7 +15,6 @@ export default function HomePage() {
 
   return (
     <div>
-      <h2>HomePage</h2>
       <div className="text-center">
         <h4>Calculate Next period, Ovulation Day</h4>
 
