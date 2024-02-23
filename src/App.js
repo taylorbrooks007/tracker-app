@@ -5,6 +5,8 @@ import NavBar from "./components/NavBar";
 import HomePage from "./pages/HomePage";
 import Luteal from "./pages/Luteal";
 import Ovulatory from "./pages/Ovulatory";
+import Menstural from "./pages/Menstrual";
+import Follicular from "./pages/Follicular";
 
 export default function App() {
   return (
@@ -13,8 +15,10 @@ export default function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Luteal" element={<Luteal />} />
+          <Route path="/Menstrual" element={<Menstural />} />
+          <Route path="/Follicular" element={<Follicular />} />
           <Route path="/Ovulatory" element={<Ovulatory />} />
+          <Route path="/Luteal" element={<Luteal />} />
         </Routes>
       </>
     </Router>
