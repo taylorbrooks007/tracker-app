@@ -2,4 +2,21 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #f5e0db;
+  /* background-color: #f9f6e3; */
+}
+.Home {
+  background-color: #f9f6e3;
+}
+.Menstrual {
+  background-color: #eea7a3;
+}
+.Follicular {
+  background-color: #e1eebd;
+}
+.Ovulatory {
+  background-color: #ffd699;
+}
+.Luteal {
+  background-color: #e5e8fb;
 }

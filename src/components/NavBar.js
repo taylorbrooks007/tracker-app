@@ -7,11 +7,21 @@ function NavBar() {
     <header>
       <div>
         <ul>
-          <Link to="/">Home</Link>
-          <Link to="/Menstrual">Menstrual</Link>
-          <Link to="/Follicular">Follicular</Link>
-          <Link to="/Ovulatory">Ovulatory</Link>
-          <Link to="/Luteal">Luteal</Link>
+          <Link to="/" className="Home">
+            Home
+          </Link>
+          <Link to="/Menstrual" className="Menstrual">
+            Menstrual
+          </Link>
+          <Link to="/Follicular" className="Follicular">
+            Follicular
+          </Link>
+          <Link to="/Ovulatory" className="Ovulatory">
+            Ovulatory
+          </Link>
+          <Link to="/Luteal" className="Luteal">
+            Luteal
+          </Link>
         </ul>
       </div>
     </header>

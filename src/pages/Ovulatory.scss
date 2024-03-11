@@ -1,4 +1,4 @@
-.menstrual-info {
+.ovulatory-info {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr; 
@@ -15,7 +15,7 @@
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         margin: 0px;   
-        background-color: #FDCDC1;
+        background-color: #fdeac1;
         padding: 20px;
     }
 
@@ -23,7 +23,7 @@
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         margin: 0px;
-        background-color: #ebaca9;
+        background-color: #ebe1a9;
         padding: 20px;
     }
 
@@ -31,7 +31,7 @@
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         margin: 0px;
-        background-color: #d9d1db;
+        background-color: #e7bf93;
         padding: 20px;
     }
     
@@ -39,7 +39,7 @@
         grid-column: 2 / 3;
         grid-row: 3 / 4;
         margin: 0px;
-        background-color: #f6daca;
+        background-color: #ffdd94;
         padding: 20px;
     }
 

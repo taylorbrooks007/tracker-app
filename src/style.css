@@ -1,7 +1,9 @@
 * {
   overflow: auto;
 }
-
+body {
+  background-color: #f9f6e3;
+}
 .box {
   display: inlineBlock;
   margin: 30px auto 20px auto;
