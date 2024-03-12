@@ -25,6 +25,6 @@ Start the development server:
 ## Technologies Used
 
 -React
--JavaScript
--HTML
+\*JavaScript
++HTML
 -SCSS
