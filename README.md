@@ -18,13 +18,18 @@ Start the development server:
 
 ## Features
 
--Input menstrual cycle length to receive predictions for the next period and -ovulation dates.
--Informative static pages about the hormonal cycle.
--User-friendly and responsive design.
+- Input menstrual cycle length to receive predictions for the next period and - ovulation dates.
+- Informative static pages about the hormonal cycle.
+- User-friendly and responsive design.
 
 ## Technologies Used
 
--React
-\*JavaScript
-+HTML
--SCSS
+- React
+- JavaScript
+- HTML
+- SCSS
+
+## Upcoming Features
+
+- Show links for informational pages
+- Attractive styling for informational pages
